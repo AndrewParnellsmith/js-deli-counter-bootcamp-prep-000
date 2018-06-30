@@ -9,8 +9,8 @@ function nowServing(deliLine) {
 }
 }
 function currentLine(line) {
-  for(let i = 1; i < line.length ; i++)
+  for(let i = 0; i < line.length ; i++)
   if ( line.length === 0 ) { return ("The line is currently empty.")
-  } else { return (`The line is currently: ${i}. ${line[0]}, ${i+1}. ${line[1]}, ${i+2}. ${line[2]} `) }
+  } else { return (`The line is currently: ${i+1}. ${line[0]}, ${i+2}. ${line[1]}, ${i+3}. ${line[2]} `) }
 
 }

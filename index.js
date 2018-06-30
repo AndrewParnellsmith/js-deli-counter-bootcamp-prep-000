@@ -8,4 +8,8 @@ function nowServing(deliLine) {
   } else { return (`Currently serving ${deliLine.shift()}.`);
 }
 }
-function currentLine(line)
+function currentLine(line) {
+  if (line === 0) { return "The line is currently empty."
+  } else { return (`The line is currently ${line.length}. )
+}
+}

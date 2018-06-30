@@ -10,6 +10,6 @@ function nowServing(deliLine) {
 }
 function currentLine(line) {
   if (line === 0) { return "The line is currently empty."
-  } else { return (`The line is currently ${line.length}. )
+  } else { return (`The line is currently: ${line.length}. ${name} )
 }
 }
